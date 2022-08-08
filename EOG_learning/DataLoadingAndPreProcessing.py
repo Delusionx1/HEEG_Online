@@ -40,16 +40,16 @@ def dataSeparateByCategory(rawData):
 
     for i in range(events.shape[0]):
         if(events[i,2] == 7):
-            leftData = data[:22,events[i,0]+50:events[i,0]+850]
+            leftData = data[:22,events[i,0]+250:events[i,0]+850]
             allLeftData.append(leftData)
         if(events[i,2] == 8):
-            rightData = data[:22,events[i,0]+50:events[i,0]+850]
+            rightData = data[:22,events[i,0]+250:events[i,0]+850]
             allRightData.append(rightData)
         if(events[i,2] == 9):
-            footData = data[:22,events[i,0]+50:events[i,0]+850]
+            footData = data[:22,events[i,0]+250:events[i,0]+850]
             allFootData.append(footData)
         if(events[i,2] == 10):
-            tongueData = data[:22,events[i,0]+50:events[i,0]+850]
+            tongueData = data[:22,events[i,0]+250:events[i,0]+850]
             allTongueData.append(tongueData)
     
     allLeftData = np.array(allLeftData)

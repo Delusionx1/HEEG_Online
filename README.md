@@ -8,7 +8,8 @@ How to use:
       - matplotlib
       - scipy
       - sklearn
-   2. Install the webots robot simulation platform
+   2. Install the [webots](https://cyberbotics.com/) robot simulation platform
    3. Run the program from main.py
+   4. Run the robot script UR5.wbt
 ---
 Enjoy and have fun
